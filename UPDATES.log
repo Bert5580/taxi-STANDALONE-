@@ -1,0 +1,7 @@
+[2025-10-16] v1.1.0
+- Code cleanup and optimization.
+- Added **Config bootstrap defaults** in `client.lua` to prevent nil value errors for speeds & keys.
+- Introduced `SafeDeleteEntity` and `CleanupTaxiEntities` with resource stop handler.
+- Extended `config.lua` with driving behaviour (`DriveStyle`, `MaxSpeedCapMS`, `BoostSpeedMS`, `CruiseMS`) and `ShowTaxiBlip`.
+- Ensured `fxmanifest.lua` sets `lua54 'yes'`.
+- Added `README.md` and `UPDATES.log`.
